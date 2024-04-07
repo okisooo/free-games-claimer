@@ -1,1 +1,32 @@
 
+name: Weekly Run
+
+on:
+  schedule:
+    - cron: "12 22 * * *" 
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Set up Node.js
+      uses: actions/setup-node@v2
+      with:
+        node-version: '14'
+
+    - name: Run npm install
+      run: npm install
+
+    - name: Set up Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: '3.x'
+
+    - name: Install apprise
+      run: pip install apprise
+
+    - name: Run epic-games script
+      run: node epic-games
