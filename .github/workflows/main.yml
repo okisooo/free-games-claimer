@@ -8,26 +8,7 @@ jobs:
     runs-on: self-hosted
 
     steps:
-    - uses: actions/checkout@v2
-
-    - name: Set up Node.js
-      uses: actions/setup-node@v2
-      with:
-        node-version: '16'
-
-    - name: Run npm install
-      run: npm install
-
-    - name: Set up Python
-      uses: actions/setup-python@v2
-      with:
-        python-version: '3.x'
-
-    - name: Install apprise
-      run: pip install apprise
+    - uses: actions/checkout@v4
 
     - name: Run epic-games script
       run: node epic-games
-      env:
-        EG_EMAIL: ${{ secrets.EG_EMAIL }}
-        EG_PASSWORD: ${{ secrets.EG_PASSWORD }}
