@@ -1,4 +1,4 @@
-name: Weekly Run
+name: DAILY CLAIM CHECKER
 
 on:
   workflow_dispatch:
