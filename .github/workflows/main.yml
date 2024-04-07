@@ -30,3 +30,6 @@ jobs:
 
     - name: Run epic-games script
       run: node epic-games
+      env:
+        EG_EMAIL: ${{ secrets.EG_EMAIL }}
+        EG_PASSWORD: ${{ secrets.EG_PASSWORD }}
