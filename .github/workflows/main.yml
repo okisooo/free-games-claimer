@@ -3,6 +3,7 @@ name: Weekly Run
 on:
   schedule:
     - cron: "12 22 * * *" 
+  workflow_dispatch:
 
 jobs:
   build:
