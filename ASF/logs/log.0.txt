@@ -1,0 +1,26 @@
+2024-04-07 04:04:58|ArchiSteamFarm-23224|INFO|ASF|InitCore() ArchiSteamFarm V6.0.1.24 (win-x64/118c1164cbd6444396797ef44cbdd46a | .NET 8.0.2; win-x64; Microsoft Windows 10.0.22631) in [C:\Users\samue\Desktop\ASF]
+2024-04-07 04:04:58|ArchiSteamFarm-23224|INFO|ASF|InitCore() Copyright © 2015-2024 JustArchiNET
+2024-04-07 04:04:58|ArchiSteamFarm-23224|INFO|ASF|InitGlobalDatabaseAndServices() It looks like it's your first launch of the program, welcome!
+2024-04-07 04:05:08|ArchiSteamFarm-23224|WARN|ASF|InitGlobalDatabaseAndServices() Please review our privacy policy section on the wiki if you're concerned about what ASF is in fact doing!
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|InitPlugins() Initializing Plugins...
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|InitPlugins() Loading ItemsMatcherPlugin V6.0.1.24...
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|InitPlugins() ItemsMatcherPlugin has been loaded successfully!
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|InitPlugins() Loading MobileAuthenticatorPlugin V6.0.1.24...
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|InitPlugins() MobileAuthenticatorPlugin has been loaded successfully!
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|InitPlugins() Loading SteamTokenDumperPlugin V6.0.1.24...
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|InitPlugins() SteamTokenDumperPlugin has been loaded successfully!
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|UpdateAndRestart() ASF will automatically check for new versions every 1 day.
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|UpdateASF() Checking for new version...
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|UpdateASF() Local version: 6.0.1.24 | Remote version: 6.0.1.24
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|OnASFInit() SteamTokenDumperPlugin is currently disabled according to your configuration. If you'd like to help SteamDB in data submission, please check out our wiki.
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|StartInteractiveConsole() Interactive console is now active, type 'c' in order to enter command mode.
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|Start() Starting IPC server...
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|Microsoft.Hosting.Lifetime|Now listening on: http://localhost:1242
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|Microsoft.Hosting.Lifetime|Application started. Press Ctrl+C to shut down.
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|Microsoft.Hosting.Lifetime|Hosting environment: Production
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|Microsoft.Hosting.Lifetime|Content root path: C:\Users\samue\Desktop\ASF
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|Start() IPC server ready!
+2024-04-07 04:05:14|ArchiSteamFarm-23224|INFO|ASF|RegisterBots() Initializing SteamDirectory...
+2024-04-07 04:05:15|ArchiSteamFarm-23224|INFO|ASF|RegisterBots() Success!
+2024-04-07 04:05:15|ArchiSteamFarm-23224|WARN|ASF|RegisterBots() No bots are defined. Did you forget to configure your ASF? Follow 'setting up' guide on the wiki if you're confused.
+2024-04-07 04:05:58|ArchiSteamFarm-23224|INFO|Microsoft.Hosting.Lifetime|Application is shutting down...
